@@ -11,7 +11,6 @@ public class AvoidCrash {
 
     private final EService eService;
 
-
     @Autowired
    public AvoidCrash(@Qualifier("RESTService") EService eService) {
     this.eService = eService;
